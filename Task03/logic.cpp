@@ -22,5 +22,9 @@ int sum_values_between_first_and_second_elements(int* arr, int size) {
 		}
 	}
 
+	if (count < 2) {
+		return 0;
+	}
+
 	return sum;
 }
