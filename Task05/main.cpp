@@ -1,7 +1,7 @@
 #include "logic.h"
 
 int main() {
-	cout << "Changeling.\n";
+	cout << "The Last local maxima.\n";
 
 	int size;
 	cout << "Enter size of array: ";
@@ -12,8 +12,7 @@ int main() {
 	init(arr, size, -20, 20);
 	cout << "Array: " << convert(arr, size) << endl;
 
-	cout << "Reversr array: " << get_reverse_array(arr, size) << endl;
-
+	cout << "Last extreme maximum: " << get_last_local_maximum(arr, size) << endl;
 
 	delete[] arr;
 
