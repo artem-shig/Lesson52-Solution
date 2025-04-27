@@ -2,5 +2,5 @@
 #include <string>
 using namespace std;
 
-void init(int* arr, int size, int a, int b);
-string convert(int* arr, int size);
+void init(double* arr, int size, int a, int b);
+string convert(double* arr, int size);

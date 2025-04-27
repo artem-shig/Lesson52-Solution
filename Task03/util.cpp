@@ -1,7 +1,6 @@
 #include "util.h"
 
-void init(int* arr, int size, int a, int b) {
-	srand(time(0));
+void init(double* arr, int size, int a, int b) {
 
 	for (int i = 0; i < size; i++)
 	{
@@ -9,7 +8,7 @@ void init(int* arr, int size, int a, int b) {
 	}
 }
 
-string convert(int* arr, int size) {
+string convert(double* arr, int size) {
 	string s = "";
 
 	for (int i = 0; i < size; i++)
