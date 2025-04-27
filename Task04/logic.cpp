@@ -1,6 +1,6 @@
 #include "logic.h"
 
-string get_reverse_array(int* arr, int size) {
+void get_reverse_array(int* arr, int size) {
 
 	if (size <= 0 || arr == nullptr) {
 		return "Error...";
