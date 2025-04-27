@@ -26,7 +26,7 @@ int get_index_last_zero_value(int* arr, int size) {
 
 int sum_values_between_first_and_second_elements(int* arr, int size) {
 
-	if (size <= 0 || arr == nullptr) {
+	if (size <= 2 || arr == nullptr) {
 		return 0;
 	}
 
